@@ -11,8 +11,6 @@ bool FindUnassignedLocation(int grid[N][N],
 bool isSafe(int grid[N][N], int row,
             int col, int num);
 
-// Function to check if the solution
-// of sudoku puzzle is valid or not
 bool isValidSudoku(int board[][N])
 {
     bool unique[N + 1];
